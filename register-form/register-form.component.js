@@ -1,15 +1,19 @@
+
 (function() {
     "use strict";
-
-    var module = angular.module("registerForm");
-
-    function controller($http) {
+    
+    function registerFormController($scope, $element, $attrs) {
+        var model = this;
+        $scope.email = {
+            placeholder: "Enter email",
+            text: "",
+            word: /^\s*\w*\s*$/
+        };
     }
     
-    module.component("registerForm", {
+    angular.module("ariaFormApp").component("registerFormCtrl", {
         templateUrl: "/register-form/register-form.component.html",
-        controllerAs: "register",
-        controller: ["$http", controller]
+        controllerAs: "model",
+        controller: registerFormController
     });
-
 } ());

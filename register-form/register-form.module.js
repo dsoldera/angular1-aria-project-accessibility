@@ -1,6 +1,6 @@
 (function() {
     "use strict";
 
-    angular.module("registerForm", []);
+    angular.module("ariaFormApp", ["ngAria"]);
 
 }());
