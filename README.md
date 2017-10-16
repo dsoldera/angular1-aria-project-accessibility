@@ -10,4 +10,4 @@ My Angular 1 Aria Project for Accessibiliy
 * [AngularJS Accessibility by Marcy Sutton at ng-europe 2014](https://www.youtube.com/watch?v=dmYDggEgU-s)
 * [Angular ngAria](https://docs.angularjs.org/api/ngAria)
 * [Pluralsight - Building Components](https://app.pluralsight.com/library/courses/building-components-angular-1-5/table-of-contents)
-* 
+* [Angular 1 Style Guide](https://github.com/johnpapa/angular-styleguide/blob/master/a1/README.md)
